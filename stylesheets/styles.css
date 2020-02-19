@@ -1,0 +1,134 @@
+html, body 
+{
+    height: 100%;
+}
+
+body 
+{
+    min-height: 100%;
+    height: 100%;
+    margin-left: 10px;
+    font: 15px arial, sans-serif;
+}
+
+.body
+{
+    background-color: lightseagreen;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rebeccapurple;
+    margin: 10px 10px 10px 10px;
+}
+
+.navbar-link-item
+{
+    margin : 10px 10px 10px 10px;
+    width: auto;
+    color: burlywood;
+    text-decoration: none;
+    transition: all ease-in 300ms;
+}
+
+.footer-text
+{
+    background-color: black;
+    padding: 1px;
+    color: red;
+    float: right;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font: 15px arial, sans-serif;
+}
+
+.title-text
+{
+    font-size: 24pt;
+    text-align: center;
+}
+
+.form-inline
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background-color: burlywood;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 100px;
+    column-width: 100px;
+    padding: 6px;
+}
+
+.form-inline label
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px 10px 20px;
+    min-width: 400px;
+}
+
+.form-inline input 
+{
+    min-width: 220px;
+}
+
+.message_input
+{
+    width: 220px;
+}
+
+.btn.btn-default{
+    background-color: #FF80CA;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+}
+
+.error-message
+{
+    color: red;
+    text-align: center;
+}
+
+p
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sneakers-image, .koffiezetapparaat-image, .tennisracket-image
+{
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template: 150px / auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-container > img
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
